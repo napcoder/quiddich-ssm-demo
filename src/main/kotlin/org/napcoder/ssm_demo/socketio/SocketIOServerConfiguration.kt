@@ -21,7 +21,8 @@ class SocketIOServerConfiguration {
         }
 
         config.socketConfig = socketConfig
-
-        return SocketIOServer(config)
+        val server = SocketIOServer(config)
+        server.start()
+        return server
     }
 }

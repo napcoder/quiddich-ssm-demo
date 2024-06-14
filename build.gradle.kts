@@ -25,9 +25,9 @@ repositories {
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-starter-reactor-netty")
 	implementation("org.springframework.statemachine:spring-statemachine-starter")
-	implementation("com.corundumstudio.socketio:netty-socketio:2.0.3")
+	implementation("com.corundumstudio.socketio:netty-socketio:2.0.9")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
